@@ -1,0 +1,20 @@
+How to build:
+
+1) First you need to sync CM10:
+	A) mkdir cm10
+	B) cd cm10
+	C) repo init -u git://github.com/CyanogenMod/android.git -b jellybean
+	D) repo sync
+
+2) Now you need to clone my local manifest:
+	A) cd ~/cm10/.repo
+	B) git clone git://github.com/mg2195/local_manifest.git 
+	C) repo sync
+
+3) Now you can build:
+	A) . build/envsetup.sh
+	B) lunch
+	c) 6 ***or whatever number the holiday pops up as***
+	D) mka bacon
+
+4) relax, eat some pizza, go for a walk...do something, this can take a while...your finished product will be located in /cm10/out/target/product/holiday
