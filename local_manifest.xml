@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="KangBangKreations/KangBanged-Kernel" path="kernel/htc/KangBanged-Kernel" revision="kb-rebirth" />
-  <project name="aospX/platform_packages_apps_FileManager" path="packages/apps/FileManager" remote="github" revision="ics-devel"/>
   <project name="mg2195/platform_device_htc_holiday" path="device/htc/holiday" remote="github" revision="jellybean" />
   <project name="mg2195/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="jellybean" />
   <project name="mg2195/platform_vendor_htc_holiday" path="vendor/htc/holiday" remote="github" revision="jellybean" />
